@@ -77,9 +77,9 @@ services:
   timescaledb:
     image: timescale/timescaledb-ha:pg15-latest
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: marketdb
+      POSTGRES_USER: xxxx
+      POSTGRES_PASSWORD: xxxx
+      POSTGRES_DB: xxxdb
     ports:
       - "5432:5432"
     volumes:
